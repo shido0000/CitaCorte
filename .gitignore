@@ -1,16 +1,40 @@
 ```
-# Build artifacts
-*.dll
-*.exe
-*.pdb
-*.nupkg
-*.snupkg
-bin/
-obj/
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+*.user
+*.userosscache
+*.suo
+*.csproj.user
+*.vbproj.user
+*.vcxproj.user
+*.userprefs
+
+# ASP.NET Core
+*.dbmdl
+*.dbproj.schemaview.xml
+*_AppData
+PropertySheet.props
+PropertySheet.targets
 
 # Dependencies
 packages/
-node_modules/
+project.lock.json
+project.fragment.lock.json
+artifacts/
 
 # Logs
 *.log
@@ -18,43 +42,17 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
+*.env.*
 
 # OS generated files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
 
-# User-specific files
-*.userprefs
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Testing
-TestResults/
-
-# NuGet
-*.nupkg
-!*.nupkg.sha512
-*.nuspec
-packages.lock.json
-global.json
-
-# Microsoft SQL Server
-*.mdf
-*.ldf
-*.ndf
-
-# Visual Studio Code
-.vscode/tasks.json
-.vscode/launch.json
-
-# JetBrains Rider
-[Rr]eSharper/
-*.DotSettings.user
+# Temporary files
+*.tmp
+*.temp
+*~
 ```
