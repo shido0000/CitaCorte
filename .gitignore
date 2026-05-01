@@ -1,58 +1,30 @@
 ```
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-build/
-bld/
-[Bb]in/
-[Oo]bj/
+bin/
+obj/
+out/
 
-# Visual Studio Code
+# User-specific files
+.vs/
 .vscode/
-
-# Visual Studio
-*.user
-*.userosscache
-*.suo
-*.csproj.user
-*.vbproj.user
-*.vcxproj.user
 *.userprefs
 
-# ASP.NET Core
-*.dbmdl
-*.dbproj.schemaview.xml
-*_AppData
-PropertySheet.props
-PropertySheet.targets
-
-# Dependencies
+# Dependency directories
 packages/
-project.lock.json
-project.fragment.lock.json
-artifacts/
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # OS generated files
 .DS_Store
 Thumbs.db
-ehthumbs.db
-Icon?
-desktop.ini
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
 
 # Temporary files
 *.tmp
-*.temp
 *~
 ```
