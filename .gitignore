@@ -1,45 +1,60 @@
 ```
-# Dependencies
-node_modules/
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.nupkg
+*.snupkg
+bin/
+obj/
 
-# Environment variables
-.env
-.env.local
-*.env.*
+# Dependencies
+packages/
+node_modules/
 
 # Logs
 *.log
 
-# IDE files
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
 .vscode/
 .idea/
-
-# Python cache (if any Python files exist in backend)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Build outputs
-dist/
-build/
-target/
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
+# User-specific files
+*.userprefs
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Local configuration
-.env*
-!.env.example
+# Testing
+TestResults/
+
+# NuGet
+*.nupkg
+!*.nupkg.sha512
+*.nuspec
+packages.lock.json
+global.json
+
+# Microsoft SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Visual Studio Code
+.vscode/tasks.json
+.vscode/launch.json
+
+# JetBrains Rider
+[Rr]eSharper/
+*.DotSettings.user
 ```
